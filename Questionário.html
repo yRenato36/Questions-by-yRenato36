@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <header>
+        <h1>Questionário</h1>
+    </header>
+    <section>
+        <div id='q1'>Questão 1</div>
+        <div>
+            <img id='foto1' src="fotomanha.png" alt="manha">
+        </div>
+        <div id='coisas'>
+            Essa imagem representa qual tempo do dia?
+            <p id='resposta'>
+                <input type="text" name="resp" id="resp"></br>
+                <input type="button" value="Verificar" onclick="clique()">
+            </p>
+            <p id='paragrafo2'>A sua resposta vai aqui</p>
+        </div>
+    </section>
+    <section id='sec2'> 
+        <div id='q1'>Questão 2</div> 
+        <div>
+            <img src="fototarde.png" alt="tarde">
+        </div>
+        <div>
+            Essa imagem representa qual tempo do dia?
+            <p id='resposta'>
+                <input type="radio" name="rad" id="rad0" checked>
+                <label for="rad0">Manhã</label>
+                <input type="radio" name="rad" id="rad1" >
+                <label for="rad1">Tarde</label>
+                <input type="radio" name="rad" id="rad2">
+                <label for="rad2">Noite</label>
+                <input type="button" value="Verificar" onclick="clique1()">
+                <p id='resul1'>A sua resposta vai aqui</p>
+            </p>
+        </div>
+    </section>
+    <section id='sec3'>
+        <div id="q1"> Questão 3</div>
+        <div>
+            <img src="fotonoite.png" alt="Noite">
+        </div>
+        <div id='coisas1'>
+            Essa imagem representa qual tempo do dia?
+            <p id='resposta3'>
+                <input type="text" name="caixat" id="caixa"></br>
+                <input type="button" value="Analisar" onclick="clique2()">
+            </p>
+            <p id='paragrafo3'>A sua resposta vai aqui</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;yRenato36 2021 All rights reserved</p>
+    </footer>
+    <script src="script1.js"></script>  
+</body>
+</html>
